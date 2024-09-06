@@ -1,0 +1,152 @@
+.news{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0px 140px;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    gap: 30px;
+}
+
+.news h1{
+    color: #454545;
+    font-size: 55px;
+    font-weight: 600;
+    margin-top: 1.5em;
+}
+
+.news p{
+    color: #454545;
+    font-size: 20px;
+}
+
+.news div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    width: 730px;
+    height: 70px;
+    border-radius: 80px;
+    border: 1px solid #e3e3e3;
+}
+
+.news input{
+    width: 500px;
+    border: none;
+    outline: none;
+    color: #616161;
+    font-family: 'poppins';
+    font-size: 16px;
+    margin-left: 2em;
+}
+
+.news div button{
+    width: 210px;
+    height: 70px;
+    border-radius: 80px;
+    background: #222;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media (max-width: 1280px) {
+    .news{
+        padding: 0px 80px;
+        margin-bottom: 120px;
+        gap: 20px;
+    }
+    .news h1{
+        font-size: 36px;
+    }
+    .news p{
+        font-size: 16px;
+    }
+    .news div{
+        width: 600px;
+        height: 60px;
+    }
+    .news div input{
+        width: 400px;
+    }
+    .news div button{
+        width: 160px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .news{
+        margin-bottom: 60px;
+    }
+    .news h1{
+        font-size: 30px;
+    }
+    .news p{
+        font-size: 14px;
+    }
+    .news div{
+        width: 500px;
+        height: 50px;
+    }
+    .news div input{
+        width: 300px;
+        font-size: 14px;
+    }
+    .news div button{
+        width: 120px;
+        height: 50px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 800px) {
+    .news{
+        margin-bottom: 30px;
+    }
+    .news h1{
+        font-size: 18px;
+    }
+    .news p{
+        font-size: 12px;
+    }
+    .news div{
+        width: 400px;
+        height: 40px;
+    }
+    .news div input{
+        width: 200px;
+        font-size: 13px;
+    }
+    .news div button{
+        width: 100px;
+        height: 40px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 500px) {
+    .news{
+        width: 100%;
+        padding: 0px;
+        gap: 15px;
+    }
+    .news h1{
+        font-size: 16px;
+    }
+    .news p{
+        font-size: 13px;
+        max-width: 200px;
+        text-align: center;
+    }
+    .news div{
+        width: 290px;
+    }
+    .news div input{
+        width: 130px;
+    }
+}
